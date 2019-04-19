@@ -51,15 +51,17 @@ Mon contenu sera divisé en SECTIONS indépendantes (par ex. "A propos de moi", 
 
 L'attribut "id" construit un lien facilitant la navigation interne.
 
+La balise <aside> sertt à créer un cartouche sur le côté gauche de la page. Il contiendra mes informations personnelles (photo, à propose de moi, contact, centres d'intérêt).
+
     <aside class="cartouche bg-sombre clair">
         <section id="photo">
             <img src="./dossier1/dossier2/ma_photo.png" alt="(ma photo)" class="au_centre" width="160" height="160">
         </section>
-
-            <section id="a_propos">
-                <h2 class="maclasse">
-                    Mon titre
-                </h2>
+        
+        <section id="a_propos">
+            <h2 class="maclasse">
+                Mon titre
+            </h2>
                 <p class="maclasse">
                     Mon texte
                 </p>
@@ -67,41 +69,29 @@ L'attribut "id" construit un lien facilitant la navigation interne.
                     Mon texte 2
                 </p>
 
-            <section id="contact">
-                <h2 class="pad-m">Contact</h2>
+Liste de liens avec les balises <ul> (non ordonnée), <li> (bullets) et <ol> (ordonnée). Ici, affiche du texte contenant un lien vers une boîte mail :
 
-                <!-- Liste de liens avec les balises <ul> (non ordonnée), <li> (bullets) et <ol> (ordonnée) -->
-                <ul class="pad-s">
-                    <!-- Liens ABSOLUS : pas de point de repère avec mon fichier actuel -->
-                    <!-- Envoyer un mail en cliquant sur une image -->
-                    <a href="mailto:k.dupont@yopmail.com">
+    <ul class="pad-s">
+        <a href="mailto:k.dupont@yopmail.com">
+            M'envoyer un mail
+        </a>
+    </ul>
 
-                        <!-- Image en ligne dont j'ai redéfini la taille -->
-                        <img src="https://ya-webdesign.com/images/email-png-logo-1.png" alt="Logo Yopmail" width=20
-                            height=20>
-                        M'envoyer un mail
-                    </a></ul>
+On peut également stocker l'url d'une page web. Pour ouvrir le lien dans un nouvel onglet, on ajoute le paramètre target="_blank" :
 
-                <ul class="pad-s">
-                    <!-- Ouvrir un nouvel onglet (target="_blank") en cliquant sur une image -->
-                    <a href="https://www.google.com/search?hl=fr&q=linkedin%20kevin%20dupont" target="_blank">
+    <ul class="pad-s">
+        <a href="https://github.com/" target="_blank">
+            Aller sur GitHub
+        </a>
+    </ul>
 
-                        <!-- Image en ligne dont j'ai redéfini la taille -->
-                        <img src="http://www.ramphotonics.com/wp-content/uploads/2018/07/linkedin-square-white.svg"
-                            alt="Logo Linkedin" width=20 height=20>
-                        LinkedIn
-                    </a></ul>
+On peut faire de même en stockant le lien URL dans une image :
 
-                <ul class="pad-s">
-                    <a href="https://github.com/search?q=dupont" target="_blank">
+    <ul class="pad-s">
+        <img src="https://amla26.github.io/amla-website/img/github.png"
+            alt="Logo GitHub" width=20 height=20>
+    </ul>
 
-                        <!-- Image en ligne dont j'ai redéfini la taille -->
-                        <img src="https://amla26.github.io/amla-website/img/github.png" alt="Logo GitHub" width=20
-                            height=20>
-                        GitHub
-                    </a></ul>
-
-            </section>
 
             <section id="centres_d_interet">
                 <h2 class="pad-m">Centres d'int&eacuter&ecirct</h2>
