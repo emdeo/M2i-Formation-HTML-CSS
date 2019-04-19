@@ -1,0 +1,71 @@
+/* Mes classes personnalisées */
+
+.cartouche{
+    font-family: Roboto, Geneva, sans-serif;
+    color: white;
+
+    /* Dimensions */
+    width: 30%;
+    height: 94vh;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+    margin: 0;
+    padding: .5em 2em .5em 2em;
+    box-sizing: border-box;
+
+    display: inline-block;
+    vertical-align: top;
+
+    margin-right: -.25em;
+}
+
+.principale{
+    font-family: Roboto, Geneva, sans-serif;
+    color: #0d201f;
+
+    margin: 0;
+    left: 30%;
+
+    /* Contrairement au cartouche, je ne veux pas contraindre la taille ici :
+    le block "principale" dépasse délibérément le block "cartouche" dans le sens vertical */
+    width: 70%;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    padding: .5em 5em .5em 3em;
+    box-sizing: border-box;
+
+    display: inline-block;
+    vertical-align: top;
+
+    margin-right: -.25em;
+}
+
+.photo{
+    /* Pour centrer l'image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Pour baisser l'image */
+    margin-top: 1.5em;
+}
+
+.lien-url{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+
+    /* non surligné */
+    text-decoration: none;
+}
+
+.bouton{
+    color: white;
+    background: #0d201f;
+
+    padding: .5em .75em;
+    border-radius: .5em;
+}

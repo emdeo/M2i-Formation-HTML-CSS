@@ -1,0 +1,17 @@
+/* Mes couleurs */
+
+.sombre{
+    color: #0d201f;
+}
+
+.clair{
+    color: #dcebea;
+}
+
+.bg-sombre{
+    background: #0d201f;
+}
+
+.bg-clair{
+    background: #dcebea;
+}

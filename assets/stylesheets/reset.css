@@ -1,0 +1,41 @@
+/* Mise en forme par défaut de la page */
+
+header{
+    /* Espace le header en haut et en bas pour éviter que le menu se superpose au block principal */
+    padding: 1.1em;
+    background: white;
+}
+
+body{
+    margin: 0;
+    font-family: Roboto, Geneva, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Roboto, Geneva, sans-serif;
+    font-weight: normal;
+    margin: .5em 0em;
+}
+
+ul{
+    padding: .5%;
+}
+
+li{
+    margin: .5em 0em;
+}
+
+a{
+    /* Hérite des propriétés de la balise mère */
+    font-family: inherit;
+    color: inherit;
+
+    /* Enlever le surligné */
+    text-decoration: none;
+}
+
+p{
+    margin: .5em 0em;
+}

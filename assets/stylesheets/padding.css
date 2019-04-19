@@ -1,0 +1,26 @@
+/* Mes marges et espacements */
+
+.pad-xs{
+    padding: .1em 0%;
+    box-sizing: border-box;
+}
+
+.pad-s{
+    padding: .25em 0%;
+    box-sizing: border-box;
+}
+
+.pad-m{
+    padding: .5em 0%;
+    box-sizing: border-box;
+}
+
+.pad-l{
+    padding: .75em .5%;
+    box-sizing: border-box;
+}
+
+.pad-xl{
+    padding: 1em .5%;
+    box-sizing: border-box;
+}

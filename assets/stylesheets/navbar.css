@@ -1,0 +1,15 @@
+/* Menu : définit les liens permettant de naviguer dans ma page */
+
+.navbar{
+    position: fixed;
+    left: 1em;
+    /* width: 100%; */
+    padding: 1em;
+    z-index: 9;
+    
+    /* position: relative; */
+    /* top: 0em; */
+    /* width: auto; */
+    /* padding: .25em .5em; */
+    /* box-sizing: border-box; */
+}
